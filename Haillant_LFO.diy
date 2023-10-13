@@ -363,7 +363,7 @@
       <name>Pad1</name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="2.8" y="2.9"/>
+      <point x="3.5" y="2.9"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -372,7 +372,7 @@
       <name>Pad2</name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="2.8" y="2.7"/>
+      <point x="3.5" y="2.7"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -381,14 +381,95 @@
       <name>Pad3</name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="2.7" y="3.9"/>
+      <point x="2.4" y="3.9"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.SolderPad>
+    <diylc.connectivity.SolderPad>
+      <name>Pad4</name>
+      <size value="0.09" unit="in"/>
+      <color hex="000000"/>
+      <point x="2.4" y="3.8"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.SolderPad>
+    <diylc.connectivity.SolderPad>
+      <name>Pad5</name>
+      <size value="0.09" unit="in"/>
+      <color hex="000000"/>
+      <point x="5.0" y="3.9"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.SolderPad>
+    <diylc.connectivity.SolderPad>
+      <name>Pad6</name>
+      <size value="0.09" unit="in"/>
+      <color hex="000000"/>
+      <point x="5.0" y="3.5"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.SolderPad>
+    <diylc.connectivity.SolderPad>
+      <name>Pad7</name>
+      <size value="0.09" unit="in"/>
+      <color hex="000000"/>
+      <point x="5.0" y="3.3"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.SolderPad>
+    <diylc.connectivity.SolderPad>
+      <name>Pad8</name>
+      <size value="0.09" unit="in"/>
+      <color hex="000000"/>
+      <point x="5.0" y="3.0"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.SolderPad>
+    <diylc.connectivity.SolderPad>
+      <name>Pad9</name>
+      <size value="0.09" unit="in"/>
+      <color hex="000000"/>
+      <point x="5.0" y="2.8"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.SolderPad>
+    <diylc.connectivity.SolderPad>
+      <name>Pad10</name>
+      <size value="0.09" unit="in"/>
+      <color hex="000000"/>
+      <point x="5.0" y="2.5"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.SolderPad>
+    <diylc.connectivity.SolderPad>
+      <name>Pad11</name>
+      <size value="0.09" unit="in"/>
+      <color hex="000000"/>
+      <point x="2.4" y="2.9"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.SolderPad>
+    <diylc.connectivity.SolderPad>
+      <name>Pad12</name>
+      <size value="0.09" unit="in"/>
+      <color hex="000000"/>
+      <point x="2.4" y="3.0"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
     </diylc.connectivity.SolderPad>
     <diylc.semiconductors.DIL__IC>
       <name>IC1</name>
-      <alpha>72</alpha>
+      <alpha>86</alpha>
       <value>TL074</value>
       <orientation>DEFAULT</orientation>
       <pinCount>_14</pinCount>
@@ -473,21 +554,6 @@
       <height value="0.4" unit="in"/>
       <invert>false</invert>
     </diylc.passive.RadialElectrolytic>
-    <diylc.shapes.Rectangle>
-      <name>Shrouded Header 2X16</name>
-      <alpha>63</alpha>
-      <value></value>
-      <controlPoints>
-        <point x="2.3" y="3.7"/>
-        <point x="2.0" y="2.8"/>
-      </controlPoints>
-      <firstPoint x="2.0" y="2.8"/>
-      <secondPoint x="2.3" y="3.7"/>
-      <color hex="ffffff"/>
-      <borderColor hex="000000"/>
-      <borderThickness value="0.2" unit="mm"/>
-      <edgeRadius value="0.0" unit="mm"/>
-    </diylc.shapes.Rectangle>
     <diylc.electromechanical.MiniToggleSwitch>
       <name defined-in="diylc.AbstractComponent">SW1</name>
       <alpha>127</alpha>
@@ -1045,21 +1111,6 @@
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
-    <diylc.shapes.Rectangle>
-      <name>RECT2</name>
-      <alpha>63</alpha>
-      <value></value>
-      <controlPoints>
-        <point x="2.3" y="3.4"/>
-        <point x="2.2" y="3.1"/>
-      </controlPoints>
-      <firstPoint x="2.2" y="3.1"/>
-      <secondPoint x="2.3" y="3.4"/>
-      <color hex="ffffff"/>
-      <borderColor hex="000000"/>
-      <borderThickness value="0.2" unit="mm"/>
-      <edgeRadius value="0.0" unit="mm"/>
-    </diylc.shapes.Rectangle>
     <diylc.shapes.Ellipse>
       <name>ELL1</name>
       <alpha>127</alpha>
@@ -1088,6 +1139,35 @@
       <borderColor hex="000000"/>
       <borderThickness value="0.2" unit="mm"/>
     </diylc.shapes.Ellipse>
+    <diylc.electromechanical.PinHeader>
+      <name>PH1</name>
+      <alpha>86</alpha>
+      <orientation>DEFAULT</orientation>
+      <controlPoints>
+        <point x="2.1" y="2.9"/>
+        <point x="2.1" y="3.0"/>
+        <point x="2.1" y="3.1"/>
+        <point x="2.1" y="3.2"/>
+        <point x="2.1" y="3.3"/>
+        <point x="2.1" y="3.4"/>
+        <point x="2.1" y="3.5"/>
+        <point x="2.1" y="3.6"/>
+        <point x="2.2" y="2.9"/>
+        <point x="2.2" y="3.0"/>
+        <point x="2.2" y="3.1"/>
+        <point x="2.2" y="3.2"/>
+        <point x="2.2" y="3.3"/>
+        <point x="2.2" y="3.4"/>
+        <point x="2.2" y="3.5"/>
+        <point x="2.2" y="3.6"/>
+      </controlPoints>
+      <rowCount>2</rowCount>
+      <columnCount>8</columnCount>
+      <spacing value="0.1" unit="in"/>
+      <shrouded>false</shrouded>
+      <bodyColor hex="808080"/>
+      <shroudColor hex="595959"/>
+    </diylc.electromechanical.PinHeader>
     <diylc.connectivity.HookupWire>
       <name>GND</name>
       <alpha>127</alpha>
@@ -1146,8 +1226,8 @@
       <name>W1</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.6" y="2.9"/>
-        <point x="3.9" y="1.5"/>
+        <point x="2.4" y="2.9"/>
+        <point x="3.7" y="1.5"/>
         <point x="2.9" y="1.5"/>
         <point x="2.4" y="1.5"/>
       </controlPoints2>
@@ -1164,10 +1244,10 @@
       <name>W2</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="3.6" y="3.0"/>
-        <point x="4.0" y="1.3"/>
-        <point x="3.4" y="1.3"/>
-        <point x="2.8" y="1.3"/>
+        <point x="1.6" y="2.2"/>
+        <point x="2.7" y="2.0"/>
+        <point x="3.0" y="1.7"/>
+        <point x="2.8" y="1.7"/>
       </controlPoints2>
       <color hex="0099ff"/>
       <pointCount>FOUR</pointCount>
@@ -1220,8 +1300,8 @@
       <controlPoints2>
         <point x="1.6" y="2.2"/>
         <point x="1.5" y="2.6"/>
-        <point x="3.2" y="2.1"/>
-        <point x="3.4" y="3.0"/>
+        <point x="1.8" y="2.7"/>
+        <point x="2.4" y="3.0"/>
       </controlPoints2>
       <color hex="0099ff"/>
       <pointCount>FOUR</pointCount>
@@ -1275,7 +1355,7 @@
         <point x="4.4" y="1.3"/>
         <point x="4.2" y="1.3"/>
         <point x="3.6" y="1.3"/>
-        <point x="3.2" y="2.9"/>
+        <point x="2.4" y="1.5"/>
       </controlPoints2>
       <color hex="0099ff"/>
       <pointCount>FOUR</pointCount>
@@ -1309,9 +1389,9 @@
       <alpha>127</alpha>
       <controlPoints2>
         <point x="4.4" y="1.7"/>
-        <point x="4.4" y="2.1"/>
-        <point x="4.4" y="2.1"/>
-        <point x="4.4" y="2.8"/>
+        <point x="4.4" y="2.0"/>
+        <point x="4.8" y="2.3"/>
+        <point x="5.0" y="2.8"/>
       </controlPoints2>
       <color hex="0099ff"/>
       <pointCount>FOUR</pointCount>
@@ -1344,9 +1424,9 @@
       <name>W12</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="4.8" y="3.9"/>
+        <point x="5.0" y="3.9"/>
         <point x="5.6" y="4.6"/>
-        <point x="6.0" y="4.5"/>
+        <point x="6.2" y="3.8"/>
         <point x="5.9" y="3.6"/>
       </controlPoints2>
       <color hex="33cc00"/>
@@ -1454,7 +1534,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB5</name>
-      <point x="2.8" y="3.0"/>
+      <point x="3.5" y="2.8"/>
       <text>Tri (TP1)</text>
       <font name="Dialog" size="14" style="0"/>
       <color hex="000000"/>
@@ -1464,7 +1544,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB6</name>
-      <point x="2.8" y="2.6"/>
+      <point x="3.5" y="2.6"/>
       <text>Squ (TP2)</text>
       <font name="Dialog" size="14" style="0"/>
       <color hex="000000"/>
@@ -1484,8 +1564,8 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB8</name>
-      <point x="2.7" y="4.0"/>
-      <text>GND</text>
+      <point x="2.4" y="4.0"/>
+      <text>GND (TP3)</text>
       <font name="Dialog" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -1525,7 +1605,7 @@
     <diylc.misc.Label>
       <name>LAB12</name>
       <point x="2.6566929133858275" y="5.369291338582677"/>
-      <text>1.0.1</text>
+      <text>1.0.2</text>
       <font name="Dialog" size="14" style="1"/>
       <color hex="000000"/>
       <horizontalAlignment>LEFT</horizontalAlignment>
@@ -1635,20 +1715,20 @@
   </components>
   <groups>
     <set>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[18]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[17]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[13]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[15]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[11]"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[3]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[16]"/>
       <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[4]"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[2]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[2]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[19]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[14]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[20]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[13]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[17]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[3]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[2]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[11]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[18]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[19]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[12]"/>
     </set>
   </groups>
