@@ -1,3 +1,5 @@
+> **⚠️ Archived 2025-08-21. No longer maintained.**
+
 # Haillant LFO
 Stripboard design for [David Haillant's excellent Simple LFO](https://www.davidhaillant.com/simple-lfo-1-5/). 
 
